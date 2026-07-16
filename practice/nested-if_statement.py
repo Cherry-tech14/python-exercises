@@ -14,7 +14,7 @@ password = input("Password: ")
 if username == "Mariam":
     if password == "Python123":
         print("Login successful.")
-'''
+
 
 age = int(input("Enter your age: "))
 
@@ -27,3 +27,16 @@ if age >= 18:
         print("Working Age")
 else:
     print("Minor")
+    '''
+
+username = input("Enter username: ")
+
+if username == "admin":
+    password = input("Enter password: ")
+
+    if password == "1234":
+        print("Access Granted")
+    else:
+        print("Wrong Password")
+else:
+    print("Unknown User")
